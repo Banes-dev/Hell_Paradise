@@ -5,19 +5,19 @@ using UnityEngine;
 public class pause_menu : MonoBehaviour
 {
     public GameObject PausePanel;
-	public string pause_menu_state = "play";
+	public static bool pause_menu_state = false;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Y))  // KeyCode.Escape
+        if (Input.GetKeyDown(KeyCode.Escape))  // KeyCode.Escape
         {
             // set pause menu
-			if (pause_menu_state == "play")
+			if (pause_menu_state == false)
 			{
 				Pause();
 			}
-			else if (pause_menu_state == "pause")
+			else
 			{
 				Resume();
 			}
@@ -26,15 +26,25 @@ public class pause_menu : MonoBehaviour
 
 	public void Pause()
 	{
+		Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
 		PausePanel.SetActive(true);
 		Time.timeScale = 0;
-		pause_menu_state = "pause";
+		pause_menu_state = true;
 	}
 	public void Resume()
 	{
+		Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
 		PausePanel.SetActive(false);
 		Time.timeScale = 1;
-		pause_menu_state = "play";
+		pause_menu_state = false;
+	}
+	public void Param()
+	{
+		Debug.Log("Test bouton param");
 	}
 	public void Quit()
 	{
