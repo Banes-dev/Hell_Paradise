@@ -1,6 +1,6 @@
 # Hell_Paradise
 
-## 🇫🇷
+### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/2560px-Flag_of_France.svg.png" height="42" />
 (Janvier 2024)
 
 Hell Paradise est un jeu vidéo fait dans le cadre d'une game jam de 42 Le Havre sur le thème de l'oposé.
@@ -15,7 +15,7 @@ Voici une vidéo qui montre à quoi ressemble le jeu dans son ensemble.
 
 
 
-## 🇬🇧
+###  <img src="https://media.istockphoto.com/id/880562092/fr/vectoriel/grande-bretagne-drapeau-du-royaume-uni.jpg?s=612x612&w=0&k=20&c=Y_SgIOLAhcQnmHn58IibtTsQahlNoX3UENYnrf-N698=" height="42" />
 (January 2024)
 
 Hell Paradise is a video game made as part of a game jam at 42 Le Havre on the theme of oppression.
