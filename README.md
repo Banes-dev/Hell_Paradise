@@ -31,4 +31,4 @@ Here's a video showing what the game looks like as a whole.
 
 
 
-[video](https://youtu.be/Pb6T6liAYkI)
+https://youtu.be/Pb6T6liAYkI
